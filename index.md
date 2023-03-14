@@ -23,4 +23,8 @@ $$K(x, z) = \exp(\frac{-|x-z|L}{σ}\)$$
 Where L represents the distance norm and σ the kernel width.
 L = 1 for the Laplacian Kernel and L = 2 for the Gaussian kernel.
 
-In order to train a kernel, the following equation has to be solved for $$\hat{α}$$
+In order to train a kernel, the following equation has to be solved for $$\hat{α}$$:
+
+$$\hat{α} = yK(X, X)^(-1)
+
+
