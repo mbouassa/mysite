@@ -55,13 +55,19 @@ Update M as follow: $$ M = \frac{1}{n}\sum_{x \in X}\nabla f(x) \nabla f(x)^{T}$
 
 Finally, cross-validate and repeat 2-4 until convergence (4)
 
-## What are the benefits of RFMs?
+## What Are The Benefits of RFMs?
 
 What is amazing about RFMs is that they outperform several neural networks when it comes to text classification as the results section will demonstrate later on.
 
 RFMs make use of sparse matices and thus are more data efficient than other methods.
 
 M also converges to the same weights as a learned DNN does on vision tasks
+
+## Our Dataset
+
+Our approach involved using RFMs to predict the next word in a text dataset. To accomplish this, we utilized a PDF version of George Orwell's 1984 and extracted the raw words from it. We constructed a vocabulary of 50 alphanumeric characters and tokenized the text accordingly. Next, we encoded the characters in a one-hot format and obtained a matrix with dimensions N (number of samples) by 64 (token size) by 50 (vocabulary size). We then compared the performance of our RFM model to that of bigram/trigram models, as well as the Laplacian kernel.
+
+
 
 
 
