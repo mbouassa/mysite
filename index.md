@@ -19,7 +19,7 @@ In summary, we're investigating why large parameter models perform better, compa
 Kernels take the following form: 
 
 $$
-K(x, z) = \exp(\frac{-|x-z|L}{σ})
+K(x, z) = \exp\left(\frac{-|x-z|L}{σ}\right)
 $$
 
 
@@ -39,7 +39,7 @@ $$\hat{y}(x) = \hat{\alpha}K(X, x)$$
 RFMs have the following form:
 
 $$
-K(x, z) = \exp(\frac{-|x-z|M}{σ})
+K(x, z) = \exp\left(\frac{-|x-z|M}{σ}\right)
 $$ Where $$|x-z|M := \sqrt{(x-z)^{T}(x-z)}$$
 
 Thus, we can calculate the gradient as follow: 
