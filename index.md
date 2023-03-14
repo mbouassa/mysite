@@ -38,13 +38,14 @@ RFMs have the following form:
 
 $$
 K(x, z) = \exp\left(\frac{-|x-z|M}{σ}\right)
-$$       $$\quad$$ Where $$|x-z|M := \sqrt{(x-z)^{T}(x-z)}$$
+$$       
+$$\quad$$ Where $$|x-z|M := \sqrt{(x-z)^{T}(x-z)}$$
 
 Thus, we can calculate the gradient as follow: 
 
  $$\nabla K_{M}(x, z) = \frac{Mx - Mz}{σ|x - z|M}K(x, z)$$
 
- ## How To Train an RFM?
+## How To Train an RFM?
 
 First, let d be the number of features and let $$M := I_{dxd}$$ (1)
 
@@ -53,6 +54,10 @@ Then use M to train a kernel $$K_{M}$$ (2)
 Update M as follow: $$ M = \frac{1}{n}\sum_{x \in X}\nabla f(x) \nabla f(x)^{T}$$ where $$ \nabla f(x) = \alpha \nabla K_{M}(X, x) $$ (3)
 
 Finally, cross-validate and repeat 2-4 until convergence (4)
+
+## What are the benefits of RFMs?
+
+
 
 
 
