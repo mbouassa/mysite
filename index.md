@@ -57,11 +57,7 @@ Finally, cross-validate and repeat 2-4 until convergence (4)
 
 ## What Are The Benefits of RFMs?
 
-What is amazing about RFMs is that they outperform several neural networks when it comes to text classification as the results section will demonstrate later on.
-
-RFMs make use of sparse matices and thus are more data efficient than other methods.
-
-M also converges to the same weights as a learned DNN does on vision tasks
+RFMs have a remarkable ability to outperform several neural networks in text classification, as the results section will demonstrate later on. Additionally, RFMs use sparse matrices, making them more data-efficient than other methods. Interestingly, M also converges to the same weights as a learned DNN does on vision tasks.
 
 ## Our Dataset
 
