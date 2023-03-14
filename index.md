@@ -18,12 +18,12 @@ In summary, we're investigating why large parameter models perform better, compa
 
 Kernels take the following form: 
 
-$$K(x, z) = \exp(\frac{-|x-z|L}{σ}\)$$
+$$K(x, z) = \exp\left(\frac{-|x-z|L}{\sigma}\right)$$
 
 Where L represents the distance norm and σ the kernel width.
 L = 1 for the Laplacian Kernel and L = 2 for the Gaussian kernel.
 
-In order to train a kernel, the following equation has to be solved for $$\hat{α}$$:
+In order to train a kernel, the following equation has to be solved for $$\hat{\alpha}$$:
 
 $$\hat{α} = yK(X, X)^(-1)
 
