@@ -39,7 +39,7 @@ RFMs have the following form:
 $$
 K(x, z) = \exp\left(\frac{-|x-z|M}{σ}\right)
 $$       
-$$\quad$$ Where $$|x-z|M := \sqrt{(x-z)^{T}(x-z)}$$
+Where $$|x-z|M := \sqrt{(x-z)^{T}(x-z)}$$
 
 Thus, we can calculate the gradient as follow: 
 
@@ -56,6 +56,12 @@ Update M as follow: $$ M = \frac{1}{n}\sum_{x \in X}\nabla f(x) \nabla f(x)^{T}$
 Finally, cross-validate and repeat 2-4 until convergence (4)
 
 ## What are the benefits of RFMs?
+
+What is amazing about RFMs is that they outperform several neural networks when it comes to text classification as the results section will demonstrate later on.
+
+RFMs make use of sparse matices and thus are more data efficient than other methods.
+
+M also converges to the same weights as a learned DNN does on vision tasks
 
 
 
