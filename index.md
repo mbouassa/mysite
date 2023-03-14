@@ -44,6 +44,10 @@ Thus, we can calculate the gradient as follow:
 
  $$\nabla K_{M}(x, z) = \frac{Mx - Mz}{σ|x - z|M}K(x, z) $$
 
+ ## How To Train an RFM?
+
+ Let d be the number of features and let $$\M := I_{dxd}$$
+
 
 
 
