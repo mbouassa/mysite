@@ -42,6 +42,11 @@ $$
 K(x, z) = \exp(\frac{-|x-z|M}{σ})
 $$ Where $$|x-z|M := \sqrt{(x-z)^{T}(x-z)}$$
 
+Thus, we can calculate the gradient as follow: 
+
+ $$\nabla K_{M}(x, z) = \frac{Mx - Mz}{σ|x - z|M}K(x, z) $$
+
+
 
 
 
