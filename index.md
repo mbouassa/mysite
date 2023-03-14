@@ -61,8 +61,9 @@ RFMs have a remarkable ability to outperform several neural networks in text cla
 
 ## Our Dataset
 
-![1984, George Orwell](/assets/images/1984_cover.jpg)
-
+<div style="text-align:center">
+  <img src="/assets/images/1984_cover.jpg" alt="1984, George Orwell" />
+</div>
 Our approach involved using RFMs to predict the next word in a text dataset. To accomplish this, we utilized a PDF version of George Orwell's 1984 and extracted the raw words from it. We constructed a vocabulary of 50 alphanumeric characters and tokenized the text accordingly. Next, we encoded the characters in a one-hot format and obtained a matrix with dimensions N (number of samples) by 64 (token size) by 50 (vocabulary size). We then compared the performance of our RFM model to that of bigram/trigram models, as well as the Laplacian kernel.
 
 
