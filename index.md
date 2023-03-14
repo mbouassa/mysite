@@ -88,6 +88,20 @@ We see that the RFM model did pretty well. Now let's look at the text that was a
 
 ![](/assets/images/text.png)
 
+While we cannot draw conclusions on the models' performances based on the generated text, we can still see that RFM generated text has actual words like "eat", "the", or "tool". On the other hand, the N-gram generated text doesn't produce actual words.
+
+## Results
+
+To assess the quality of our model, we calculate bleu scores and perplexity.
+Here are the results:
+
+![](/assets/images/results.png)
+
+We see that the RFM has the highest bleu score and thus performs the best out of the three models. Indeed, in few-shot text generation, RFMs outperform N-grams and traditional kernels.
+
+We also found out that kernles exhibit "double descent" which is a phenomenon that was thought to only be happening in DNNs.
+We also nothiced that RFMs exhibit stronger double descent than traditional kernels.
+
 
 
 
