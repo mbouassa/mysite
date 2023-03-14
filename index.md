@@ -74,7 +74,7 @@ In order to do so, we generated 1000 random datapoints $$x_{i} \in R^{d} \righta
 $$f(x) = 5x_1^3 + 10x_2^2 + 2x_3$$
 We then train an RFM and Laplacian Kernel ("Baseline") and get the test MSE. The results are shown below
 
-![](/assets/images/scaling_plot_test_with_baseline)
+![Scaling Test](/assets/images/scaling_plot_test_with_baseline)
 
 
 
