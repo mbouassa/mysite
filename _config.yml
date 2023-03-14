@@ -1,3 +1,5 @@
 name: Mehdi Bouassami
 markdown: kramdown
 theme: minima
+kramdown:
+  math_engine: katex
