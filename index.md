@@ -32,5 +32,18 @@ $$\hat{\alpha} = yK(X, X)^{-1}$$
 
 To make predictions, use the following equation:
 
-$$\hat{\y}(x) = \hat{\alpha}K(X, x)$$
+$$\hat{y}(x) = \hat{\alpha}K(X, x)$$
+
+# What Are Recursive Feature Machines?
+
+RFMs have the following form:
+
+$$
+K(x, z) = \exp(\frac{-|x-z|M}{σ})
+$$ Where $$|x-z|M := \sqrt{(x-z)^{T}(x-z)}$$
+
+
+
+
+
 
