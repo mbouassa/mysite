@@ -40,7 +40,7 @@ RFMs have the following form:
 
 $$
 K(x, z) = \exp\left(\frac{-|x-z|M}{σ}\right)
-$$       \quad Where $$|x-z|M := \sqrt{(x-z)^{T}(x-z)}$$
+$$       $$\quad$$ Where $$|x-z|M := \sqrt{(x-z)^{T}(x-z)}$$
 
 Thus, we can calculate the gradient as follow: 
 
