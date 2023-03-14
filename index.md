@@ -12,9 +12,7 @@ We also want to compare neural networks to recursive feature machines, which are
 
 In summary, we're investigating why large parameter models perform better, comparing kernel methods to neural networks and recursive feature machines on text datasets, and analyzing the theory behind recursive kernel machines.
 
-## Methods
-
-# What Do Kernels Look Like?
+## What Do Kernels Look Like?
 
 Kernels take the following form: 
 
@@ -34,7 +32,7 @@ To make predictions, use the following equation:
 
 $$\hat{y}(x) = \hat{\alpha}K(X, x)$$
 
-# What Are Recursive Feature Machines?
+## What Are Recursive Feature Machines?
 
 RFMs have the following form:
 
