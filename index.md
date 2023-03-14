@@ -84,8 +84,9 @@ Now, let's test the RFM model on the 1984 dataset and see how well it can perfor
 
 ![](/assets/images/output.png)
 
+We see that the RFM model did pretty well. Now let's look at the text that was actually generated.
 
-
+![](/assets/images/text.png)
 
 
 
