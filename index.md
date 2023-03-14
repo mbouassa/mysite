@@ -74,7 +74,20 @@ In order to do so, we generated 1000 random datapoints $$x_{i} \in R^{d} \righta
 $$f(x) = 5x_1^3 + 10x_2^2 + 2x_3$$
 We then train an RFM and Laplacian Kernel ("Baseline") and get the test MSE. The results are shown below
 
-![Scaling Test](/assets/images/scaling_plot_test_with_baseline)
+![Scaling Test](/assets/images/scaling_plot_test_with_baseline.png)
+
+We see that the RFM performs better than the baseline (Laplacian Kernel) when d is between 10 and 200. After that, the MSEs of both models are very similar.
+
+### Text Prediction
+
+Now, let's test the RFM model on the 1984 dataset and see how well it can perform on a few-shot next character prediction problem. In order to have a good idea of how powerful the RFM method is, we compare its performance to traditional methods N-grams and kernels. Here are the results:
+
+![](/assets/images/output.png)
+
+
+
+
+
 
 
 
