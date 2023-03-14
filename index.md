@@ -46,11 +46,13 @@ Thus, we can calculate the gradient as follow:
 
  ## How To Train an RFM?
 
-First, let d be the number of features and let $$M := I_{dxd}$$
+First, let d be the number of features and let $$M := I_{dxd}$$ (1)
 
-Then use M to train a kernel $$K_{M}$$
+Then use M to train a kernel $$K_{M}$$ (2)
 
-Update M as follow: $$ M = \frac{1}{n}\sum_{x \in X}\nabla f(x) \nabla f(x)^{T}$$ where $$ \nabla f(x) $$
+Update M as follow: $$ M = \frac{1}{n}\sum_{x \in X}\nabla f(x) \nabla f(x)^{T}$$ where $$ \nabla f(x) = \alpha \nabla K_{M}(X, x) $$ (3)
+
+Finally, cross-validate and repeat 2-4 until convergence (4)
 
 
 
