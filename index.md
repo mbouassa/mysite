@@ -1,4 +1,8 @@
+<h1 class = "page-heading">Your Neural Network is Secretly a Kernel Machine</h1>
 
+Arunav Gupta, Rohit Mishra, Mehdi Bouassami William Luu
+
+[Github Repository](https://github.com/agupta01/ml-theory-capstone)
 
 ## Introduction
 
