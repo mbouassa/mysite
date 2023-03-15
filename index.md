@@ -1,7 +1,4 @@
 
-Arunav Gupta, Rohit Mishra, Mehdi Bouassami William Luu
-
-[Github Repository](https://github.com/agupta01/ml-theory-capstone)
 
 ## Introduction
 
