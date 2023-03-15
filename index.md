@@ -2,10 +2,7 @@
 
 Arunav Gupta, Rohit Mishra, Mehdi Bouassami William Luu
 
-<head>
-    <meta charset="utf-8">
-    <title><a href = 'https://github.com/agupta01/ml-theory-capstone'>View Project GitHub</a></title>
-  </head>
+[Github Repository](https://github.com/agupta01/ml-theory-capstone)
 
 ## Introduction
 
