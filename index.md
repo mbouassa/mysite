@@ -90,8 +90,6 @@ We see that the RFM model did pretty well. Now let's look at the text that was a
 
 While we cannot draw conclusions on the models' performances based on the generated text, we can still see that RFM generated text has actual words like "eat", "the", or "tool". On the other hand, the N-gram generated text doesn't produce actual words.
 
-## Results
-
 To assess the quality of our model, we calculate bleu scores and perplexity.
 Here are the results:
 
@@ -102,7 +100,9 @@ We see that the RFM has the highest bleu score and thus performs the best out of
 We also found out that kernles exhibit "double descent" which is a phenomenon that was thought to only be happening in DNNs.
 We also nothiced that RFMs exhibit stronger double descent than traditional kernels.
 
+## Conclusion
 
+With the recent rise in popularity of language models like chatGPT, we wanted to compare text prediction between traditional neural networks and RFMs. By using 1984 by George Orwell as our training data and making predictions using an ngram model, a laplacian kernel and the RFM model separately, we were able to calculate Bleu score and perplexity and compare those scores for the three methods. By doing so, we were able to understand whether or not there exists methods better than classical neural networks for class prediction and generation. From our results, we found out that the RFM method has a higher Bleu score than the other methods which is a very interesting result. This innovative method has a lot of potential and applications. We saw how RFMs performed on text prediction but what about image classification? It would be very interesting to test the method on other datasets and understand where RFMs perform better. 
 
 
 
