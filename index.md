@@ -6,11 +6,15 @@ Arunav Gupta, Rohit Mishra, Mehdi Bouassami William Luu
 
 ## Introduction
 
-While neural networks have been successful in solving many technological and scientific problems, our understanding of how they work hasn't kept up with their practical advancements. By identifying the underlying mechanics that make these systems work, we can develop new and efficient strategies to improve neural network performance. Our study focuses on the essential mechanism behind feature learning in fully connected neural networks to construct recursive feature machines (RFMs), which are kernel machines that learn features. Our findings show that RFMs outperform a range of models, including deep neural networks.
+Neural networks have been very successful at solving problems of scientific and technological nature. However, our understanding of the theory that explains how they work has been improving slowly compared their practical advancements. 
+By understanding what underlying mechanics make these systems work, we can drastically improve neural networks' performances. 
 
-In recent years, there have been highly accurate machine learning models with billions of parameters that can solve tasks previously thought difficult. However, researchers are unsure why these models are better. One way to understand this is by studying kernel methods. Kernel functions are a type of algorithm that can solve non-linear problems with linear classifiers. Different types of kernels can transform data into higher dimensions to solve linear separability problems.
+Our research focuses on investigating essential mechanisms behind feature learning in neural networks that are fully connected to construct a new type of machines called Recursive Feature Machines (RFMs). RFMs ustilize kernels to combine linear separation and feature learning into an iterative process. Our findings are very interesting for the field of machine learning as we noticed that RFMs outperform a lot of classical deep learning networks.
 
-We also want to compare neural networks to recursive feature machines, which are kernel machines that learn features from deep fully connected neural networks. Recursive feature machines can capture features learned by deep networks and perform well on some tabular data. We will compare the three methods on various datasets and understand their performance differences. We will also analyze the theory behind recursive kernel machines by looking at the eigenvalues of the kernel matrix.
+In this project, we started by studying kernel methods which are a type of algorithm that facilitate the transformation of input data into a different dimensional space.
+We then understood the basics of RFMs and tested their performance on a scaling test and on text prediction. For the scaling test, we compared MSEs of RFMs and a basic Laplacian kernel and for the text generation, we performed a "few-shot next character" prediction problem. We then compared bleu scores and perplexities of RFMs, N-gram and Laplacian kernel.
+
+This project was highly motivated by the popularity of openAI. The usefulness of ChatGPT is impressive and studying text prediction with different neural network models is of actuality.
 
 In summary, we're investigating why large parameter models perform better, comparing kernel methods to neural networks and recursive feature machines on text datasets, and analyzing the theory behind recursive kernel machines.
 
