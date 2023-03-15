@@ -2,6 +2,11 @@
 
 Arunav Gupta, Rohit Mishra, Mehdi Bouassami William Luu
 
+<head>
+    <meta charset="utf-8">
+    <title><a href = 'https://github.com/agupta01/ml-theory-capstone'>View Project GitHub</a></title>
+  </head>
+
 ## Introduction
 
 While neural networks have been successful in solving many technological and scientific problems, our understanding of how they work hasn't kept up with their practical advancements. By identifying the underlying mechanics that make these systems work, we can develop new and efficient strategies to improve neural network performance. Our study focuses on the essential mechanism behind feature learning in fully connected neural networks to construct recursive feature machines (RFMs), which are kernel machines that learn features. Our findings show that RFMs outperform a range of models, including deep neural networks.
